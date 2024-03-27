@@ -9,24 +9,22 @@
     
     <!--The actual form-->
     <form>
-        <h4>Basic information:</h4>
-        <label>Email:</label>
+        <label name="Email">Email:</label>
         <input type="textbox"> <br><br>
-        <label>Username:</label>
+        <label name="Username">Username:</label>
         <input type="textbox"> <br><br>
-        <label>Password:</label>
+        <label mame="Password">Password:</label>
         <input type="textbox"> <br><br>
 
-        <h4>Gender:</h4>
-        <label>Male</label>
-        <input type="radio"><br> 
-        <label>Female</label> 
-        <input type="radio"><br><br>
+        <select name="Gender">
+        <option value="err">Gender:</option>
+        <option value="m">Male</option> 
+        <option value="f">Female</option>
+        </select> <br><br>
 
-        <h4>Other:</h4>
-        <label>I would like to receive marketing emails</label> 
+        <label name="Marketing">I would like to receive marketing emails</label> 
         <input type="checkbox"><br>
-        <label>I agree to the <a href="https://google.com/">terms and conditions</a><label>
+        <label name="TermsOfService">I agree to the <a href="https://google.com/">terms and conditions</a><label>
         <input type="checkbox"><br><br>
         
         <submit>Sign up</submit>
