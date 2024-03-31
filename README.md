@@ -1,1 +1,1 @@
-Hosted on GitHub Pages at https://ivwo.github.io/HTML-signup/](https://ivwo.github.io/HTML-signup/)
+Hosted on GitHub Pages at https://ivwo.github.io/HTML-signup/](https://ivwo.github.io/HTML-signup/
