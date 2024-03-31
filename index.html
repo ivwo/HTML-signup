@@ -2,32 +2,37 @@
 <head>
 </head>
 
-<body>
+<body 
+style="background-color:#e3e3e3;">
+
     <!--Account required message-->
     <h1>Create an account</h1>
     <h4>An account is required to use this service</h4>
     <hr></h4><br>
+   
     <!--The actual form-->
     <form>
-        <label name="Email">Email:</label>
-        <input type="textbox"> <br><br>
-        <label name="Username">Username:</label>
-        <input type="textbox"> <br><br>
-        <label mame="Password">Password:</label>
-        <input type="textbox"> <br><br>
+        <label name="Email" for="1">Email:</label>
+        <input type="textbox" id="1"><br><br>
+        <label name="Username" for="2">Username:</label>
+        <input type="textbox" id="2"><br><br>
+        <label mame="Password" for="3">Password:</label>
+        <input type="textbox" id="3"><br><br>
         
-        <label>Gender:</label>
-        <select name="Gender">
-        <option value="err">Select</option>
+        <label name="Gender" for="4">Gender:</label>
+        <select id="4">
+        <option value="err">Select:</option>
         <option value="m">Male</option> 
         <option value="f">Female</option>
-        </select> <br><br>
+        </select><br><br>
 
-        <label name="Marketing">I would like to receive marketing emails</label> 
-        <input type="checkbox"><br>
-        <label name="TermsOfService">I agree to the <a href="https://google.com/">terms and conditions</a><label>
+        <label for="6" name="Marketing">I would like to receive marketing emails</label> 
+        <input type="checkbox" id="6"><br>
+        <label name="TermsOfService">I agree to the <a href="https://examplewebsite.com/">terms and conditions</a><label>
         <input type="checkbox"><br><br>
         
         <input type="submit"><br><br><hr>
     </form>
-</body>
+
+
+</body
